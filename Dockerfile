@@ -1,5 +1,5 @@
 FROM alpine:edge
-RUN apk add mongodb==3.6.17
+RUN apk add --no-cache mongodb==3.6.17
 #RUN apk add --no-cache mongodb
 
 VOLUME /data/db
